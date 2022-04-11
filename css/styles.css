@@ -67,6 +67,15 @@ a:active {
 color: var(--orange);
 }
 
+input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #3CBC8D;
+ color: white;
+  box-sizing: border-box;
+}
+
 .button,  button {
   border: none;
   display: inline-block;
@@ -104,7 +113,7 @@ button:hover, button:focus
    margin: 0;
    position: absolute;
    top: 50%;
-   left: 50%;
+   left: 40%;
    -ms-transform: translateY(-50%);
    transform: translateY(-50%);
 }
@@ -174,6 +183,25 @@ margin-left:  35px;
     flex-direction: column;
     text-align: center;
 }
+.content-title {
+  clear: both;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content-contact {
+
+  width: 40%;
+  margin-left: 25%;
+    background-color: #cfcfc4;
+   color: black;
+ clear: both;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+
+}
 
 
 .page-footer{
@@ -194,9 +222,7 @@ margin-left:  35px;
   border: 0px solid var(--green);
 }
 
-.vertical-center {
 
-}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;;
