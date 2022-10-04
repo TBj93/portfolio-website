@@ -16,13 +16,14 @@ html {
 }
 
 h1 {
-  color: #800000;
+  color:  #edb4b4;
 }
 
 
 
 p {
-color: #800000;
+color: 
+#0f2008;
 }
 
 
@@ -40,8 +41,8 @@ color: #800000;
     text-decoration: none;
   }
 a:visited {
-
-  color: darkorange;
+  font-family: Helvetica, sans-serif;
+  color: black;
 }
 
 a:hover, a:focus {
@@ -141,7 +142,7 @@ button:hover, button:focus
 
   padding: 10px;
   margin: 10px;
-  border: 1px solid #black;
+  border: 1px solid black;
 
 }
 
@@ -153,7 +154,7 @@ button:hover, button:focus
   margin: 10 auto;
   padding: 10px;
 
-  border: 1px solid #black;
+
   text-align: center;
 }
 
@@ -279,7 +280,8 @@ margin-left: 25%;
 }
 
 .grid__item {
-  background-color: #cfcfc4;
+  background-color: 
+  #edb4b4;
 }
 
 @media all and (max-width: 500px) {
